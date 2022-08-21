@@ -1,0 +1,27 @@
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  background-color: #0d0d0d;
+  padding: 16px;
+  width: 100%;
+}
+
+.triangle {
+  color: #e50014;
+  font-size: 26px;
+  background-color: transparent;
+}
+.try-btn {
+  width: 100px;
+  height: 36px;
+  background-color: #fff;
+  color: #171f46;
+  border-radius: 6px;
+}
+.try-description {
+  color: #fff;
+}

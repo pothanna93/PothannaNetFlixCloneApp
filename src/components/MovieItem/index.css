@@ -1,0 +1,7 @@
+.runtime-container {
+  display: flex;
+}
+.movie-poster-overview {
+  color: #ffffff;
+  margin: 6px;
+}

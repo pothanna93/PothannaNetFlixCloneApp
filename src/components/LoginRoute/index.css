@@ -1,0 +1,121 @@
+.login-page-container {
+  min-height: 100vh;
+  background-color: #181818;
+  padding: 26px;
+}
+@media screen and (min-width: 768px) {
+  .login-page-container {
+    min-height: 100vh;
+    background-image: url('https://res.cloudinary.com/dyx9u0bif/image/upload/v1657426893/bg-image_usfch9.png');
+    background-size: cover;
+  }
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.movies-heading {
+  display: flex;
+  justify-content: flex-start;
+  color: #e50914;
+}
+
+/*user-input*/
+.username-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .username-container {
+    margin-bottom: 20px;
+  }
+}
+.label-element {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-bottom: 8px;
+  margin-top: 6px;
+}
+.user-input {
+  height: 40px;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  padding: 6px;
+}
+.login-form-container {
+  width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    width: 456px;
+    height: 440px;
+    padding: 36px;
+    background: #0c0b10;
+    opacity: 0.8;
+    border-radius: 8px;
+  }
+}
+.login {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .login {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.sign-button {
+  height: 40px;
+  color: #ffffff;
+  background-color: #e50914;
+  margin-top: 22px;
+  border: none;
+  outline: none;
+  border: 2px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .sign-button {
+    border-radius: 8px;
+    margin-top: 26px;
+  }
+}
+
+.error-msg {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dc2626;
+}

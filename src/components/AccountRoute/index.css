@@ -1,0 +1,51 @@
+.account-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #131313;
+}
+.account-resp-div {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px;
+  height: 76vh;
+}
+.member-details-container {
+  display: flex;
+}
+.membership-heading {
+  font-size: 22px;
+  color: #94a3b8;
+  margin-right: 16px;
+}
+.membership-container {
+  display: flex;
+  align-items: center;
+}
+.membership-premium {
+  margin: 6px;
+  color: #1e293b;
+}
+.ultra-hd {
+  border: 1px solid black;
+  color: #1e293b;
+}
+.account-logout-container {
+  text-align: center;
+  margin-top: 40px;
+}
+.account-logout {
+  width: 100px;
+  height: 38px;
+  padding: 8px;
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.hr-line {
+  color: #cbd5e1;
+  border-width: 2px;
+}

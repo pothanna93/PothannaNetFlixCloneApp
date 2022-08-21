@@ -1,0 +1,52 @@
+.slide-container {
+  display: flex;
+}
+.slides {
+  width: 100%;
+}
+.logo-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+}
+.slick-item {
+  padding: 10px;
+
+  margin: 0px;
+}
+.alert-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0d0d0d;
+  width: 100%;
+  padding: 16px;
+}
+.triangle {
+  color: #e50014;
+  font-size: 26px;
+  background-color: transparent;
+}
+.try-btn {
+  width: 100px;
+  height: 36px;
+  background-color: #fff;
+  color: #171f46;
+  border-radius: 6px;
+}
+.try-description {
+  color: #fff;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  width: 100%;
+  padding: 22px;
+}
+.original-fail-container {
+  width: 100%;
+  height: 200px;
+}

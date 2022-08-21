@@ -1,0 +1,65 @@
+.movie-item-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.poster-container {
+}
+.movie-info-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.movie-items-div {
+  margin: 16px;
+}
+.movie-info-heading {
+  font-size: 18px;
+  color: #94a3b8;
+  font-family: 'HK Grotesk';
+  margin: 0px;
+}
+.movie-info-ul-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.movie-list-item {
+  font-size: 16px;
+  font-family: 'HK Grotesk';
+  margin: 4px;
+  color: #ffffff;
+}
+
+.movie-similar-container {
+  padding: 30px;
+}
+.more-like-this {
+  font-size: 26px;
+}
+.similar-ul-container {
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.more-like-this {
+  font-size: 24px;
+  font-family: 'Hk Grotesk';
+  color: #ffffff;
+  font-weight: 600;
+}
+.movie-popular-poster {
+  width: 90px;
+  height: 64px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .movie-popular-poster {
+    width: 255px;
+    height: 170px;
+  }
+}
+.similar-li-item {
+  margin: 6px;
+}

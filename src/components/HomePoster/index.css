@@ -1,0 +1,45 @@
+.home-poster-container {
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.poster-div {
+  display: flex;
+
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 500px;
+    margin-left: 20px;
+  }
+}
+.poster-title {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0px;
+}
+.poster-overview {
+  color: #ffffff;
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+  font-size: 18px;
+}
+.poster-btn {
+  background-color: #ffffff;
+  color: #171f46;
+  width: 110px;
+  height: 38px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+}
